@@ -1,28 +1,40 @@
-name: glanzmann
-favicon: null
-layout_spectrum: 0.38031558273360133
-typography_spectrum: 0.2055228070821613
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.3803155827336013
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.5191915344912559
+  brandStrength: 0.641588190337643
+  rhythmicContrast: 0.05670372280292213
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.641588190337643
   lightness: 0.8575897277332842
-  saturation: 0.5191915344912559
-  rhythmicContrast: 0.05670372280292213
 purpose: []
+favicon: null
+name: glanzmann
+typography_spectrum: 0.2055228070821613
